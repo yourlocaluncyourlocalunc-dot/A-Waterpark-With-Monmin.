@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#159ed0">
+  <meta name="description" content="A Waterpark With Monmin — good, clean, splash-filled fun for everyone.">
+  <title>A Waterpark With Monmin</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="A Waterpark With Monmin home"><img src="assets/logo.svg" alt="A Waterpark With Monmin logo"></a>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#attractions">Attractions</a>
+        <a class="nav-link" href="#reviews">Reviews</a>
+        <a class="nav-link" href="#news">News</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <h1><span>GOOD.</span><span>CLEAN.</span><span class="blue-word">FUN.</span></h1>
+          <p>Sparkling pools. Exciting slides. A whole day to make your own. Come on in, the good times are waiting!</p>
+          <div class="hero-actions">
+            <a class="button" href="#attractions">Explore attractions <span aria-hidden="true">⟶</span></a>
+            <a class="standard-link" href="#standard">The A Waterpark With Monmin standard <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <img src="assets/pool-hero.jpg" alt="Visitors relaxing together in a bright outdoor swimming pool">
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits" id="standard" aria-label="Our promises">
+      <div class="benefit"><span class="benefit-icon">✧</span><strong>Clean from the first splash</strong></div>
+      <div class="benefit"><span class="benefit-icon">♢</span><strong>Safety at every turn</strong></div>
+      <div class="benefit"><span class="benefit-icon">☼</span><strong>Fun for the whole family</strong></div>
+    </section>
+
+    <section class="content-section attractions" id="attractions">
+      <div class="section-heading">
+        <p class="eyebrow">MAKE A SPLASH</p>
+        <h2>Find your kind of fun.</h2>
+        <p>From chilled-out pool time to big splash moments, there's something for everyone.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-art slide-art">〰</div><h3>Water slides</h3><p>Twists, turns and splashdown fun. Get ready for another go.</p></article>
+        <article class="feature-card"><div class="feature-art pool-art">◉</div><h3>Sparkling pools</h3><p>Take a dip, float around and enjoy a refreshing break.</p></article>
+        <article class="feature-card"><div class="feature-art family-art">☀</div><h3>Family fun</h3><p>Make memories together with a day full of good times.</p></article>
+      </div>
+    </section>
+
+    <section class="content-section reviews" id="reviews">
+      <div class="section-heading">
+        <p class="eyebrow">GOOD TIMES, GOOD WORDS</p>
+        <h2>What visitors say.</h2>
+      </div>
+      <div class="review-card">
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote>“A brilliant day out with loads of splashing and smiles!”</blockquote>
+        <p class="review-author">— A happy visitor</p>
+      </div>
+      <p class="small-note">These are example reviews. Replace them with real visitor feedback before publishing.</p>
+    </section>
+
+    <section class="content-section news" id="news">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT'S HAPPENING</p>
+        <h2>Latest splash news.</h2>
+        <p>Keep an eye out for updates, special days and new things to enjoy.</p>
+      </div>
+      <div class="news-panel">
+        <span class="news-date">LATEST UPDATE</span>
+        <h3>We're getting ready for a splash-tastic time!</h3>
+        <p>Check back here for opening updates, attraction news and announcements from A Waterpark With Monmin.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home" class="footer-brand">A WATERPARK WITH MONMIN</a>
+    <p>Good. Clean. Fun.</p>
+    <p class="copyright">© <span id="year"></span> A Waterpark With Monmin</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
